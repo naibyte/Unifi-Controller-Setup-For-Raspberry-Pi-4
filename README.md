@@ -11,7 +11,11 @@ wget https://github.com/themattman/mongodb-raspberrypi-docker/releases/download/
 docker load --input mongodb.ce.pi4.r7.0.4-mongodb-raspberrypi-docker-unofficial.tar.gz
 docker images
 ```
----
-Now it is ready to use in docker compose.  
-Download the compose file in this repo and just do: ```docker-compose up -d```   
+--- 
+Download ```init-mongo.js```  
+Download ```docker-compose.yml```  
+Run ```docker-compose up -d```   
 Then connect to your Pi over HTTPS on port 8443.
+
+The compose file and JS file I repurposed from this person's implementation:  
+https://gist.github.com/linucksrox/8d994f8b53070978a0c4842ac4964f07
