@@ -12,6 +12,7 @@ docker load --input mongodb.ce.pi4.r7.0.4-mongodb-raspberrypi-docker-unofficial.
 docker images
 ```
 --- 
+## Setup & Run
 Download ```init-mongo.js```  
 Download ```docker-compose.yml```  
 Run ```docker-compose up -d```   
